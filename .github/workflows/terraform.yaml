@@ -13,7 +13,7 @@ jobs:
   development:
     name: 'Terraform - Development'
     runs-on: ubuntu-latest
-    environment: dev
+    environment: main
 
     # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
     defaults:
