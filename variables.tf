@@ -5,21 +5,21 @@ variable "static_site_name" {
 }
 
 variable "client_secret" {
-  type        = string
-  default     = ""
+  type    = string
+  default = ""
 }
 
 variable "client_id" {
-  type        = string
-  default     = ""
+  type    = string
+  default = ""
 }
 
 variable "tenant_id" {
-  type        = string
-  default     = ""
+  type    = string
+  default = ""
 }
 
 variable "subscription_id" {
-  type        = string
-  default     = ""
+  type    = string
+  default = ""
 }
